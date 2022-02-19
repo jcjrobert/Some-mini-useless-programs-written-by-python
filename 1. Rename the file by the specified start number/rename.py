@@ -8,5 +8,5 @@ path = Path(r'xx')
 
 for i in path.iterdir():
     rename = f"{start}{i.name[i.name.find('.'):]}"
-    i.rename(rename)
+    i.rename(path / rename)
     start += 1
