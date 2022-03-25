@@ -13,7 +13,20 @@ pip install pathlib
 
 ### 2. Generate docx files with only one picture per page
 
-```undefined
+```
 pip install python-docx
 ```
 
+
+
+### 3. Full arrangement and overlapping of audio combinations
+
+```
+pip install pydub
+```
+
+By the way, I synthesized the video.
+
+```
+pip install moviepy
+```
